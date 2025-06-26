@@ -106,7 +106,7 @@ services:
     restart: always
 
   connect:
-    image: confluentinc/kafka-connect-datagen:latest
+    image: confluentinc/kafka-connect-datagen:7.2.14
     hostname: connect
     container_name: connect
     build:
